@@ -13,7 +13,7 @@ const STOCKS = [
   { symbol: "Ashoka Buildcon Ltd", displayName: "FINANCE DEPARTMENT" }
 ];
 
-const FINNHUB_API_KEY = "d37sejpr01qskrehm6lgd37sejpr01qskrehm6m0";  // ← replace with your Finnhub API key
+const FINNHUB_API_KEY = "d3ak45pr01qmt7ndd97gd3ak45pr01qmt7ndd980";  // ← replace with your Finnhub API key
 // =====================================
 
 // On page load, wire up password submit button
