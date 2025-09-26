@@ -2,15 +2,16 @@
 const WEBSITE_PASSWORD = "vse2k25@svv";  // ← change this to your desired password
 
 // List of stocks: real symbol + your custom display name
-const STOCKS = [
-  { symbol: "NTPC Ltd", displayName: "ORGANISING DEPARTMENT" },
-  { symbol: "Oil&Natural Gas Corpn Ltd", displayName: "MODELS DEPARTMENT" },
-  { symbol: "Bharat Electronics Ltd", displayName: "GAMES DEPARTMENT" },
-  { symbol: "Power Grid Corporation of India Ltd", displayName: "FOODSTALL DEPARTMENT" },
-  { symbol: "Eternal Ltd", displayName: "PHOTOGRAPHY DEPARTMENT" },
-  { symbol: "Wipro Ltd", displayName: "TECH DEPARTMENT" },
-  { symbol: "Coal India", displayName: "STALLS DEPARTMENT" },
-  { symbol: "Ashoka Buildcon Ltd", displayName: "FINANCE DEPARTMENT" }
+const defaultStocks = [
+  { symbol: "AAPL", displayName: "models department" },
+  { symbol: "GOOGL", displayName: "tech department" },
+  { symbol: "AMZN", displayName: "food department" },
+  { symbol: "TSLA", displayName: "seminar department" },
+  { symbol: "NVDA", displayName: "organising department" },
+  { symbol: "AMD", displayName: "stalls department" },
+  { symbol: "INTC", displayName: "games department" }, // added Intel, below 500$
+  { symbol: "CSCO", displayName: "finance department" }, // added Cisco
+  { symbol: "NFLX", displayName: "photography department" } // added Netflix
 ];
 
 const FINNHUB_API_KEY = "d3ak45pr01qmt7ndd97gd3ak45pr01qmt7ndd980";  // ← replace with your Finnhub API key
